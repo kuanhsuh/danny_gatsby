@@ -1,0 +1,35 @@
+@import './mixins.scss';
+
+.portfolio {
+  background: var(--color-grey);
+  position: relative;
+  width: 100vw;
+  left: calc(-50vw + 50%);
+  padding: 32px 40px;
+  @include phone-width{
+    padding: 20px
+  }
+}
+
+.card {
+  display: flex;
+  background: var(--color-wt);
+  margin-bottom: 32px;
+  & .img-container {
+    height: 100%;
+    display: flex;
+  }
+  &__description {
+    flex-basis: 45%;
+    padding: 8px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  &:last-child {
+    margin-bottom: 0px;
+  }
+  @include phone-width{
+    flex-direction: column;
+  }
+}

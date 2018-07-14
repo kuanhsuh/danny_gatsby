@@ -1,0 +1,105 @@
+@import './mixins.scss';
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background: var(--color-grey);
+  position: relative;
+  width: 100vw;
+  left: calc(-50vw + 50%);
+
+  & .left {
+    h1 {
+      margin-bottom: 16px;
+    }
+  }
+
+  & .right {}
+}
+
+
+.about {
+  & .container {
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.8;
+    font-size: 18px;
+    justify-content: space-between;
+    @include phone-width{
+      flex-direction: column;
+      align-items: center;
+    }
+    & p {
+      text-align: left;
+      @include phone-width{
+        order: 2;
+      }
+    }
+    & img {
+      display: block;
+      border-radius: 50%;
+      @include phone-width{
+        order: 1;
+        margin-bottom: 20px;
+      }
+    }
+    & > * {
+      flex-basis: 45%;
+    }
+  }
+}
+
+/* ==========================================================================
+Work
+========================================================================== */
+
+.work {
+  padding: 0 40px;
+  @include phone-width{
+    padding: 0 10px;
+  }
+  & li {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    @include phone-width{
+      flex-direction: column;
+    }
+  }
+
+  & .description {
+    text-align: left;
+    flex-basis: 70%;
+    @include phone-width{
+      flex-basis: 100%;
+      order: 2;
+    }
+  }
+  & .time {
+    @include phone-width{
+      order: 1;
+    }
+  }
+}
+
+/* ==========================================================================
+Skills
+========================================================================== */
+
+.skills {
+  padding: 0 40px;
+  text-align: center;
+  @include phone-width{
+    padding: 0 10px;
+  }
+  & ul {
+    text-align: left;
+  }
+  & li {
+    list-style: none;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+}
