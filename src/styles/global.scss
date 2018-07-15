@@ -26,8 +26,10 @@ body {
   width: 100%;
   margin: 0 auto;
   color: var(--color-bk);
+  font-size: 16px;
   @include phone-width{
     padding: 0 16px;
+    font-size: 14px;
   }
 }
 
