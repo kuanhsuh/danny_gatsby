@@ -12,10 +12,12 @@ const Contact = () => (
       </h4>
       <form
         className="mt20"
-        name="dannywebdev-contact"
+        name="contact"
         data-netlify="true"
         method="POST"
+        data-netlify-honeypot="bot-field"
       >
+        <input type="hidden" name="form-name" value="contact" />
         {/* <p style={{ display: "none" }}>
           <label>
             Don’t fill this out if you're human: <input name="bot-field" />
