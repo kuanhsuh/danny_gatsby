@@ -10,7 +10,7 @@ const Contact = () => (
         Got a question? Just drop me a message. I will respond as soon as
         possible
       </h4>
-      <form className="mt20">
+      <form className="mt20" name="dannywebdev-contact" method="POST" netlify>
         <div className="form-group">
           <label htmlFor="name">Name</label>
           <input type="text" className="form-control" id="name" />
@@ -23,6 +23,7 @@ const Contact = () => (
           <label htmlFor="message">Message</label>
           <textarea className="form-control" id="message" rows="10" />
         </div>
+        <div data-netlify-recaptcha />
         <button className="btn-outline btn-md">SUBMIT</button>
       </form>
     </section>
