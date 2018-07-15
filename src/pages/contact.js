@@ -10,18 +10,12 @@ const Contact = () => (
         Got a question? Just drop me a message. I will respond as soon as
         possible
       </h4>
-      <form
-        className="mt20"
-        name="dannywebdev-contact"
-        method="POST"
-        netlify-honeypot="bot-field"
-        netlify
-      >
-        <p style={{ display: "none" }}>
+      <form className="mt20" name="dannywebdev-contact" method="POST" netlify>
+        {/* <p style={{ display: "none" }}>
           <label>
             Don’t fill this out if you're human: <input name="bot-field" />
           </label>
-        </p>
+        </p> */}
         <div className="form-group">
           <label htmlFor="name">Name</label>
           <input type="text" className="form-control" id="name" required />
@@ -34,7 +28,7 @@ const Contact = () => (
           <label htmlFor="message">Message</label>
           <textarea className="form-control" id="message" rows="10" required />
         </div>
-        <div data-netlify-recaptcha />
+        {/* <div data-netlify-recaptcha /> */}
         <button className="btn-outline btn-md" type="submit">
           SUBMIT
         </button>
