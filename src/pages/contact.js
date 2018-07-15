@@ -10,7 +10,12 @@ const Contact = () => (
         Got a question? Just drop me a message. I will respond as soon as
         possible
       </h4>
-      <form className="mt20" name="dannywebdev-contact" method="POST" netlify>
+      <form
+        className="mt20"
+        name="dannywebdev-contact"
+        data-netlify="true"
+        method="POST"
+      >
         {/* <p style={{ display: "none" }}>
           <label>
             Don’t fill this out if you're human: <input name="bot-field" />
