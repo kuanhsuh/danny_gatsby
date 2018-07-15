@@ -35,7 +35,9 @@ const Contact = () => (
           <textarea className="form-control" id="message" rows="10" required />
         </div>
         <div data-netlify-recaptcha />
-        <button className="btn-outline btn-md">SUBMIT</button>
+        <button className="btn-outline btn-md" type="submit">
+          SUBMIT
+        </button>
       </form>
     </section>
   </div>
