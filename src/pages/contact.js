@@ -49,7 +49,7 @@ const Contact = () => (
           />
         </div>
         <button className="btn-outline btn-md" type="submit">
-          SUBMIT
+          SUBMIT1
         </button>
       </form>
     </section>
