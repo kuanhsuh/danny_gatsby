@@ -13,16 +13,11 @@ const Contact = () => (
       <form
         className="mt20"
         name="contact"
+        method="post"
         data-netlify="true"
-        method="POST"
         data-netlify-honeypot="bot-field"
       >
-        <input type="hidden" name="form-name" value="contact" />
-        {/* <p style={{ display: "none" }}>
-          <label>
-            Don’t fill this out if you're human: <input name="bot-field" />
-          </label>
-        </p> */}
+        <input type="hidden" name="bot-field" />
         <div className="form-group">
           <label htmlFor="name">Name</label>
           <input type="text" className="form-control" id="name" required />
@@ -35,7 +30,6 @@ const Contact = () => (
           <label htmlFor="message">Message</label>
           <textarea className="form-control" id="message" rows="10" required />
         </div>
-        {/* <div data-netlify-recaptcha /> */}
         <button className="btn-outline btn-md" type="submit">
           SUBMIT
         </button>
