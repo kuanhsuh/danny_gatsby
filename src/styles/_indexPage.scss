@@ -37,7 +37,7 @@ main {
     }
     & img {
       display: block;
-      border-radius: 50%;
+      border-radius: 15px;
       @include phone-width{
         order: 1;
         margin-bottom: 20px;

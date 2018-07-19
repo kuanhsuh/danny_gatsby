@@ -1,5 +1,4 @@
 import React from "react";
-import "./card.scss";
 
 const Card = ({ imgSrc, imgAlt, title, description, link, linkTxt }) => (
   <div className="card">
