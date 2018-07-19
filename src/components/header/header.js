@@ -1,5 +1,4 @@
 import React from "react";
-import "./header.scss";
 import PropTypes from "prop-types";
 
 const Header = ({ text, type }) => {

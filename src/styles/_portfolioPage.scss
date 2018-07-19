@@ -1,6 +1,6 @@
-@import './mixins.scss';
-
 .portfolio {
+  display: flex;
+  justify-content: center;
   background: var(--color-grey);
   position: relative;
   width: 100vw;
@@ -12,6 +12,7 @@
 }
 
 .card {
+  max-width: 960px;
   display: flex;
   background: var(--color-wt);
   margin-bottom: 32px;

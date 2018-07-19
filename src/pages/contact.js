@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "components/header/header";
-import "styles/contactPage.scss";
+// import "styles/contactPage.scss";
 
 const Contact = () => (
   <div>
