@@ -8,7 +8,12 @@ const Portfolio = () => (
   <aux>
     <Header text="portfolio" type="mojito" />
     <div className="portfolio">
-      <Card />
+      <Card
+        title="Sample Title one"
+        description="this is a sample description"
+        link="https://www.google.com"
+        linkTxt="Github"
+      />
     </div>
   </aux>
 );
