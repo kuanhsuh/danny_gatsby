@@ -4,30 +4,33 @@ const IndexPage = () => (
   <div>
     <main>
       <div className="left">
-        <h1>I am a good looking Frontend Developer</h1>
-        <a href="#" className="btn">
+        <h1>
+          Hi I am Danny. I'm a frontend develop from Taiwan. <br />
+          <span>Frontend Developer / Wordpress</span>
+        </h1>
+        <a href="#about" className="btn">
           Learn More
         </a>
       </div>
-      <div className="right">
-        <img
-          src="http://via.placeholder.com/350x600"
-          className="img-responsive"
-          alt=""
-        />
-      </div>
     </main>
-    <section className="about">
+    <section id="about" className="about">
       <h2>About</h2>
       <div className="container">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-          vitae facilis id repudiandae mollitia nesciunt commodi nostrum.
-          Placeat eaque perferendis libero temporibus voluptatibus maiores
-          deleniti, esse eos laudantium eveniet aspernatur ut soluta quia, quos
-          exercitationem. Vero, possimus rem molestiae tenetur optio hic
-          repellat cumque deserunt doloremque autem praesentium sit quae.
-        </p>
+        <div>
+          <p className="mb10">
+            I started coding just 2017 and landed first job after doing
+            100codeChallenge.
+          </p>
+          <p className="mb10">
+            I have build web sites, CMS, e-commerces, and web applications for
+            startup, small business. (link to portfolio).
+          </p>
+          <p className="mb10">
+            However, working with React and Wordpress are my expertises. I also
+            enjoy sharing my knowledge, I have a coding youtube channel and as
+            well as a blog.
+          </p>
+        </div>
         <img src="http://via.placeholder.com/300x300" alt="" />
       </div>
     </section>

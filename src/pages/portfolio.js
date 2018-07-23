@@ -10,7 +10,6 @@ const Portfolio = () => (
       {portfolios.map(portfolio => (
         <Card
           imgSrc={portfolio.imgSrc}
-          imgAlt={portfolio.imgAlt}
           title={portfolio.title}
           description={portfolio.description}
           link={portfolio.link}

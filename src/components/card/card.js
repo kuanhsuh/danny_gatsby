@@ -1,9 +1,9 @@
 import React from "react";
 
-const Card = ({ imgSrc, imgAlt, title, description, link, linkTxt }) => (
+const Card = ({ imgSrc, title, description, link, linkTxt }) => (
   <div className="card">
     <div className="img-container">
-      <img src={imgSrc} className="img-responsive" alt={imgAlt} />
+      <img src={imgSrc} className="img-responsive" alt={title} />
     </div>
     <div className="card__description">
       <h3 className="mb10">{title}</h3>

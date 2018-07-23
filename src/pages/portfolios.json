@@ -1,18 +1,23 @@
 [
   {
     "imgSrc": "http://via.placeholder.com/550x350",
-    "imgAlt": "Image Text",
-    "title": "Sample Title Text",
-    "description": "this is a sample description",
-    "link": "https://www.google.com",
+    "title": "Netflix Clone",
+    "description": "This is my side project where I built a netflix-clone. This app has upcoming movie, auto complete, and movie details.",
+    "link": "https://github.com/kuanhsuh/netflix-clonev2",
     "linkTxt": "Github"
   },
   {
     "imgSrc": "http://via.placeholder.com/550x350",
-    "imgAlt": "Image Text",
-    "title": "Sample Title Text",
-    "description": "this is a sample description",
+    "title": "Pembridge Furniture Store",
+    "description": "Pembridge is a local furniture store. I built a custom wordpress website to help them gain online presence.",
     "link": "https://www.google.com",
-    "linkTxt": "Github"
+    "linkTxt": "Link"
+  },
+  {
+    "imgSrc": "http://via.placeholder.com/550x350",
+    "title": "Barsumo App",
+    "description": "Barsumo is a HK startup that makes resturant management apps for small restaurant. I build a small feature for them with graphQL.",
+    "link": "https://www.google.com",
+    "linkTxt": "Link"
   }
 ]

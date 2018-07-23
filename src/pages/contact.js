@@ -6,8 +6,8 @@ const Contact = () => (
     <Header text="contact" type="rainbow" />
     <section className="contact">
       <h4>
-        Got a question? Just drop me a message. I will respond as soon as
-        possible
+        Looking for a web developer? I love to make web stuff. I think we should
+        talk.
       </h4>
       <form
         className="mt20"
