@@ -2,7 +2,7 @@ import React from "react";
 
 const IndexPage = () => (
   <div>
-    <main>
+    <main className="moss">
       <div className="left">
         <h1>
           Hi I am Danny. I'm a frontend develop from Taiwan. <br />
