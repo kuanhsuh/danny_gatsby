@@ -5,6 +5,7 @@ import favicon from "assets/favicon.ico";
 import Nav from "components/nav/nav";
 import Footer from "components/footer/footer";
 import "styles/global.scss";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const Layout = ({ children, data }) => (
   <div>
@@ -24,6 +25,7 @@ const Layout = ({ children, data }) => (
     <Nav />
     {children()}
     <Footer />
+    <MessengerCustomerChat pageId="474025503018735" appId="2067815023467265" />,
   </div>
 );
 
