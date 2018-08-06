@@ -31,7 +31,11 @@ const IndexPage = () => (
             well as a blog.
           </p>
         </div>
-        <img src="http://via.placeholder.com/300x300" alt="" />
+        <img
+          src="https://avatars0.githubusercontent.com/u/10923300?s=460&v=4"
+          alt="Profile Picture"
+          style={{ maxWidth: "300px" }}
+        />
       </div>
     </section>
     <hr />
@@ -45,8 +49,9 @@ const IndexPage = () => (
               <strong>Frontend Developer</strong> - rTaiwanr
               <br />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                nobis.
+                - Worked with React, Redux, and Storybook <br />
+                - Familiar with git and git flow <br />
+                - Used modern css such as CSS Grid and CSS Flexbox
               </p>
             </div>
             <div className="time">2018-current</div>
@@ -57,8 +62,9 @@ const IndexPage = () => (
               <strong>Frontend Developer</strong> - Glory Info
               <br />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                nobis.
+                - Worked with React, Vue, Vuex <br />
+                - Familiar with SVN version controls <br />
+                - Used old school CSS such as floats
               </p>
             </div>
             <div className="time">2017-2018</div>
